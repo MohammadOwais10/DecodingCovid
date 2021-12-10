@@ -1,0 +1,85 @@
+﻿
+body {
+     background: linear-gradient(to right, #9d50bb, #6e48aa);
+}
+
+section {
+    min-height: 90vh;
+    padding: 1rem 16%;
+    padding-top: 16rem;
+    margin-top:2.5vh;
+}
+
+.title {
+    /* max-width: 1500px;*/
+    width: 100%;
+    background: linear-gradient(to right, #673ab7, #512da8);
+    color: white;
+    /* margin: 15vh 10vw 0 10vw;*/
+    padding: 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.wrapper {
+    /*max-width: 1500px;*/
+    width: 100%;
+    background: linear-gradient(60deg, #b399ff, #d294ff);
+    /* margin: 0 10vw 5VH 10vw;*/
+    /*box-shadow: 1px 1px 2px rgb(0 0 0 / 13%);*/
+    padding: 30px;
+    display: flex;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.pic {
+    height: 500px;
+    width: 500px;
+    border-color: red;
+    background: linear-gradient(60deg, #b399ff, #d294ff);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+    .pic img {
+        width: 500px;
+        height: 100%;
+    }
+
+.wrapper .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #fec107;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper .form {
+    width: 100%;
+}
+
+    .wrapper .form .inputfield .btn {
+        width: 100%;
+        padding: 8px 10px;
+        font-size: 2.5rem;
+        font-weight: 600;
+        border: 0px;
+        background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%) ;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 3px;
+        outline: none;
+    }
+
+        .wrapper .form .inputfield .btn:hover {
+            background: grey;
+        }
+
+    .wrapper .form .inputfield:last-child {
+        margin-bottom: 0;
+    }
+

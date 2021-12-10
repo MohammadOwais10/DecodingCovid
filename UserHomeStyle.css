@@ -1,0 +1,53 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+:root {
+    --blue: #3c6382;
+    --dark-blue: #0a3d62;
+} 
+
+section {
+    min-height: 100vh;
+    padding: 1rem 9%;
+    padding-top: 15rem;
+}
+.heading {
+    text-align: center;
+    color: darkred;
+    font-size: 3.5rem;
+    font-weight: normal;
+    padding: 1rem;
+}
+  .prevent .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+    .prevent .box-container .box {
+        flex: 1 1 30rem;
+        border-radius: .5rem;
+        margin: 1rem;
+        padding: 1rem;
+        text-align: center;
+    }
+
+        .prevent .box-container .box img {
+            height: 12rem;
+            padding: 1rem;
+        }
+
+        .prevent .box-container .box h3 {
+            color: var(--blue);
+            font-size: 2rem;
+        }
+
+        .prevent .box-container .box p {
+            color: var(--dark-blue);
+            font-size: 1.4rem;
+            padding: 1rem;
+        }
+
+        .prevent .box-container .box:hover {
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+        }

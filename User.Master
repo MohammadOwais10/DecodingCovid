@@ -1,0 +1,217 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="DC.User" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Decoding Covid-19</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <style type="text/css">
+       html {
+          font-size: 62.5%;
+          overflow-x: hidden;
+       }
+
+       * {
+          font-family: 'Poppins', sans-serif;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          text-decoration: none;
+          outline: none;
+          border: none;
+          transition: all .3s cubic-bezier(.38,1.15,.7,1.12);
+       }
+
+       *::selection {
+         background:darkblue;
+         color: #fff;
+       }
+
+
+
+       header {
+          background: linear-gradient(to right, #000428, #004e92);
+         
+         width: 100%;
+         height:100px;
+         display: flex;
+         align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 2rem;
+}
+
+    header .logo {
+        font-size: 4.5rem;
+        color: white;
+        font-weight:800;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+        header .logo span {
+           color: red;
+           font-size: 5rem;
+        }
+
+    header .navbar a {
+        font-size: 2.2rem;
+        margin-left: .7rem;
+        padding: .5rem 2rem;
+        border-radius: .5rem;
+        color:white;
+        font-weight:800;
+    }
+    #Button1{
+        font-size: 2.2rem;
+        margin-left: .7rem;
+        padding: .5rem 2rem;
+        border-radius: .5rem;
+        color:darkred;
+        font-weight:800;
+    }
+
+        header .navbar a.active,
+        header .navbar a:hover {
+            color: white;
+            color: darkred;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+        }
+
+    header.sticky {
+        background: #fff;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    }
+/*    #menu {
+    font-size: 3rem;
+    color: blue;
+    cursor: pointer;
+    display: none;
+}
+*/
+
+#shortway {
+    font-size: 2.2rem;
+   
+    color: black;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to right, #525252, #3d72b4);
+    padding: 1rem 9%;
+    padding-top: 11rem;
+    position:fixed;
+}
+    #shortway a {
+        font-size: 2.2rem;
+        margin-left: 1rem;
+        padding: 0.5rem 2rem;
+        border-radius: 0.5rem;
+        color: white;
+        align-content:space-around;
+    }
+     #shortway a:hover {
+        color: #fff;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    }
+
+
+   </style>
+
+    
+    
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+       
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            height: 100px;
+            text-align: center;
+            font-size: xx-large;
+            background-color: #FFFFFF;
+        }
+        .auto-style4 {
+            left: 0;
+            top: 0;
+            height: 98px;
+        }
+
+
+        
+        .auto-style5 {
+            height: 25px;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            
+                <table class="auto-style1" >
+
+                    <tr>
+                       <td >
+                         <header >
+                             <a href="Index.aspx" class="logo">DECODING C<span class="fas fa-virus" ></span>VID</a>                         
+                           <nav class="navbar">
+                             <a href="UserHome.aspx">Home</a>
+                             <a href="#">Profile</a>
+                             <a href="#">Search</a>                      
+                             <%--<a class="active" href="Logout.aspx">Log Out</a>--%>
+                               <a  class="active">  <asp:Button ID="Button1" runat="server" Text="Log Out" class="active" OnClick="Button1_Click" /></a>
+                             
+                               
+                           </nav>
+                         </header>
+                      </td>
+                   </tr>
+
+
+
+                    <tr>
+                        <td>
+                            <div id="shortway">
+                             <a href="UserHome.aspx">Vaccine</a>
+                             <a href="#symptoms">Member</a>
+                             <a href="Payment.aspx">Payement</a>
+                             <a href="Slip.aspx">Slip</a>
+                             <a href="Complaint.aspx">Complaint</a>
+                             <a href="#Certificate">Certificate</a>
+                                <asp:Label ID="Label1" runat="server" Text="Label" Font-Size="0px"></asp:Label>
+                           </div>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                         <td class="auto-style5">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+          
+                            
+                         </asp:ContentPlaceHolder>
+                         </td>
+                    </tr>
+
+
+
+                </table>
+           
+        </div>
+    </form>
+</body>
+</html>

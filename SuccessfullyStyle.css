@@ -1,0 +1,112 @@
+﻿
+body {
+    background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+}
+
+section {
+    min-height: 90vh;
+    padding: 5rem 25%;
+    padding-top: 16rem;
+    margin-top: 2.5vh;
+}
+
+.title {
+    /* max-width: 1500px;*/
+    width: 100%;
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+    color: white;
+    /* margin: 15vh 10vw 0 10vw;*/
+    padding: 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.wrapper {
+    /*max-width: 1500px;*/
+    width: 100%;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    /* margin: 0 10vw 5VH 10vw;*/
+    /*box-shadow: 1px 1px 2px rgb(0 0 0 / 13%);*/
+    padding: 30px;
+    display: flex;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+/*.pic {
+    height: 500px;
+    width: 500px;
+    border-color: red;
+    background: linear-gradient(60deg, #b399ff, #d294ff);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+    .pic img {
+        width: 500px;
+        height: 100%;
+    }*/
+
+  .wrapper .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #fec107;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+ .wrapper .form {
+    width: 100%;
+ }
+ .done img{
+    display:block;
+    width: 150px;
+    height: 150px;
+    margin-left:15vw;
+ }
+  /*.mess {
+    width: 100%;
+     text-align:center;
+  }
+    .mess h1 {
+        font-weight: 800;
+        font-size: 10rem;*/
+       /* text-align: center;
+        margin-left: 15vw;*/
+    /*}
+    .mess h3 {
+        font-weight: 500;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .mess p {
+        font-weight: 300;
+        font-size: 2rem;
+        text-align: center;
+       
+    }*/
+
+.wrapper .form .inputfield .btn {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    border: 0px;
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+        .wrapper .form .inputfield .btn:hover {
+            background: grey;
+        }
+
+    .wrapper .form .inputfield:last-child {
+        margin-bottom: 0;
+    }
+       

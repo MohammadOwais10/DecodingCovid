@@ -1,0 +1,140 @@
+﻿
+body {
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+
+.title {
+    max-width: 67vw;
+    width: 100%;
+    background: linear-gradient(to right, #ff0084, #33001b);
+    color: white;
+    margin: 12vh 10vw 0 15vw;
+    padding: 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+    font-size: 3.8rem;
+}
+ .wrapper {
+    display: flex;
+    max-width: 67vw;
+    width: 100%;
+    height: 700px;
+    background: #fff;
+    margin: 0 15vw 5VH 15vw;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+ }
+
+.pic {
+    height: 700px;
+    width: 31vw;
+    border-color: red;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    border-bottom-left-radius: 15px;
+}
+
+    .pic img {
+        width: 31vw;
+        height: 600px;
+    }
+
+
+
+ .wrapper .details {
+    width:36vw;
+    margin-bottom: 15px;
+    position: relative;
+    align-items: center;
+    color: black;
+    margin-right: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+ }
+
+#contact-container {
+    width: 100%;
+    min-width: 36vw;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to left, #e0eafc, #cfdef3);
+    border-bottom-right-radius: 15px;
+}
+.phonemail {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ff0084;
+}
+.social li { /****SOCIAL-MEDIA-ICON**/
+    display: inline-block;
+    margin: 0px 1.5vw;
+    font-family: Helvetica;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+.social a {
+    color: #ff0084;
+}
+
+.social a:hover {
+    color: white;
+}
+
+.mail {
+    height: 5vh;
+    width: 20vw;
+    text-align: center;
+    font-size: 1rem;
+    margin:5px;
+}
+
+.sub-btn { /*BOTTON-FOR-SUBMIT-&-SUBSCRIBE**/
+    background: linear-gradient(to right, #ff0084, #33001b);
+    font-size: 1.3rem;
+    border: 2px solid white;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+    text-align: center;
+    width: 20vw;
+    height:5vh;
+}
+
+    .sub-btn:hover {
+        background: white;
+        color: darkmagenta;
+    }
+
+#feedback {
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    color: white;
+    background: transparent;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+#input-message {
+    margin-top: .5vh;
+    height: 5vh;
+    width: 20vw;
+    text-align: center;
+    font-size: 1rem;
+}
+h2{
+    font-size:2.5rem;
+    color:darkred;
+}
+p {
+    font-size: 1.5rem;
+    color: #ff0084;
+}

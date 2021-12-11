@@ -5,17 +5,18 @@
 <html>
 <head runat="server">
     <title>Decoding Covid-19</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-     <meta charset="UTF-8">
+    <%--<link rel="stylesheet" href="HomeStyle.css">--%>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-   <style type="text/css">
-       html {
+
+    <style type="text/css">
+        html {
     font-size: 62.5%;
     overflow-x: hidden;
-    }
-       * {
+}
+
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -27,14 +28,14 @@
 }
 
     *::selection {
-        background:darkblue;
+        background: darkblue;
         color: #fff;
     }
 
-       header {
+header {
     background: linear-gradient(to right, #f7971e, #ffd200);
     width: 100%;
-    height:100px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,13 +49,13 @@
     header .logo {
         font-size: 4.5rem;
         color: white;
-        font-weight:800;
-        font-family:'Times New Roman', Times, serif;
+        font-weight: 800;
+        font-family: 'Times New Roman', Times, serif;
     }
 
         header .logo span {
-           color: red;
-           font-size: 5rem;
+            color: red;
+            font-size: 5rem;
         }
 
     header .navbar a {
@@ -76,59 +77,58 @@
         background: #fff;
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     }
-
-   </style>
+    </style>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
-       
     </asp:ContentPlaceHolder>
     <style type="text/css">
         .auto-style1 {
             width: 100%;
         }
+
         .auto-style2 {
             height: 100px;
             text-align: center;
             font-size: xx-large;
             background-color: #FFFFFF;
         }
+
         .auto-style4 {
             left: 0;
             top: 0;
             height: 98px;
-        }    
+        }
+
         .auto-style5 {
             height: 25px;
         }
- 
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-                <table class="auto-style1" >
-                    <tr>
-                       <td >
-                         <header >
-                             <a href="Index.aspx" class="logo">DECODING C<span class="fas fa-virus" ></span>VID</a>                         
-                           <nav class="navbar">
-                             <a href="Index.aspx"><i class="fas fa-home"></i>Home</a>
-                             <a href="ABout.aspx">ABout Us</a>
-                             <a href="Contact.aspx">Contact Us</a>                      
-                             <a class="active" href="Login.aspx">Log In</a>
-                           </nav>
-                         </header>
-                      </td>
-                   </tr>
+            <table class="auto-style1">
+                <tr>
+                    <td>
+                        <header>
+                            <a href="Index.aspx" class="logo">DECODING C<span class="fas fa-virus"></span>VID</a>
+                            <nav class="navbar">
+                                <a href="Index.aspx"><i class="fas fa-home"></i>Home</a>
+                                <a href="ABout.aspx">ABout Us</a>
+                                <a href="Contact.aspx">Contact Us</a>
+                                <a class="active" href="Login.aspx">Log In</a>
+                            </nav>
+                        </header>
+                    </td>
+                </tr>
 
-                    <tr>
-                         <td class="auto-style5">
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                            
-                         </asp:ContentPlaceHolder>
-                         </td>
-                    </tr>
-                </table>
+                <tr>
+                    <td class="auto-style5">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
         </div>
     </form>
 </body>

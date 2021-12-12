@@ -114,7 +114,7 @@ header {
                             <a href="Index.aspx" class="logo">DECODING C<span class="fas fa-virus"></span>VID</a>
                             <nav class="navbar">
                                 <a href="Index.aspx"><i class="fas fa-home"></i>Home</a>
-                                <a href="ABout.aspx">ABout Us</a>
+                                <a href="ABout.aspx">About Us</a>
                                 <a href="Contact.aspx">Contact Us</a>
                                 <a class="active" href="Login.aspx">Log In</a>
                             </nav>

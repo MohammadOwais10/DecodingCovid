@@ -1,5 +1,4 @@
-﻿
-body {
+﻿body {
     background: linear-gradient(to right, #ff5f6d, #ffc371);
 }
 
@@ -11,11 +10,9 @@ section {
 }
 
 .title {
-    /* max-width: 1500px;*/
     width: 100%;
     background: linear-gradient(to right, #e52d27, #b31217);
     color: white;
-    /* margin: 15vh 10vw 0 10vw;*/
     padding: 20px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
@@ -24,12 +21,8 @@ section {
 }
 
 .wrapper {
-    /*max-width: 1500px;*/
     width: 100%;
-   /* background: linear-gradient(to right, #ff416c, #ff4b2b);*/
-   background-color:lavenderblush;
-    /* margin: 0 10vw 5VH 10vw;*/
-    /*box-shadow: 1px 1px 2px rgb(0 0 0 / 13%);*/
+    background-color: lavenderblush;
     padding: 30px;
     display: flex;
     border-bottom-right-radius: 15px;

@@ -19,11 +19,11 @@
     width: 500px;
     border-color: red;
     background-color: white;
-   /* opacity:.9;*/
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    padding:20px;
+    padding: 20px;
 }
+
 .pic {
     height: 600px;
     width: 500px;
@@ -33,12 +33,9 @@
     border-bottom-right-radius: 15px;
 }
 
-
-
-
 h1 {
-    font-size:4rem;
-    font-weight:bolder;
+    font-size: 4rem;
+    font-weight: bolder;
     margin: 10px;
     text-align: center;
     font-weight: bolder;
@@ -61,10 +58,9 @@ hr {
 
 form label {
     font-size: 16px;
-    font-size:3rem;
+    font-size: 3rem;
     font-weight: 700;
     padding: 5px;
-    
 }
 
 input {
@@ -83,8 +79,9 @@ input {
     font-weight: bolder;
     color: #fff;
     border: none;
-    outline: none;   
+    outline: none;
 }
+
 button {
     padding: 3px;
     width: 95%;
@@ -92,19 +89,21 @@ button {
     border-radius: 5px;
     background-color: #c31432;
 }
+
 #btn2 {
     padding: 8px;
     width: 95%;
-    color:white;
+    color: white;
     font-size: 16px;
     font-weight: bolder;
     border-radius: 5px;
     background: green;
-    text-align:center;
+    text-align: center;
 }
-    button:hover {
-        background: grey;
-    }
+
+button:hover {
+    background: grey;
+}
 
 p {
     font-size: 2rem;
@@ -113,6 +112,6 @@ p {
 a {
     color: white;
     text-decoration: none;
-    font-size:2rem;
-    font-weight:bold;
+    font-size: 2rem;
+    font-weight: bold;
 }

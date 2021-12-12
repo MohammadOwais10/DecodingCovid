@@ -40,7 +40,6 @@ section {
     background: url(images/home-bg-3.jpg) no-repeat;
     background-size: contain;
     background-position: center;
-    /*background-attachment: fixed;*/
 }
 
     .home .content {
@@ -96,7 +95,6 @@ section {
     }
 
         .prevent .box-container .box img {
-            /*height: 12rem;*/
             height: 15rem;
             padding: 1rem;
         }
@@ -130,7 +128,6 @@ section {
     }
 
         .symptoms .column .main-image img {
-            /* width: 43vh;*/
             width: 80vh;
             height: 75vh;
         }
@@ -380,19 +377,6 @@ section {
         transform: translateY(-3rem);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* media queries  */
 

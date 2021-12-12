@@ -15,7 +15,8 @@ body {
     text-align: center;
     font-size: 3.8rem;
 }
- .wrapper {
+
+.wrapper {
     display: flex;
     max-width: 67vw;
     width: 100%;
@@ -24,7 +25,7 @@ body {
     margin: 0 15vw 5VH 15vw;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
- }
+}
 
 .pic {
     height: 700px;
@@ -41,8 +42,8 @@ body {
 
 
 
- .wrapper .details {
-    width:36vw;
+.wrapper .details {
+    width: 36vw;
     margin-bottom: 15px;
     position: relative;
     align-items: center;
@@ -50,7 +51,7 @@ body {
     margin-right: 10px;
     font-size: 2rem;
     font-weight: 600;
- }
+}
 
 #contact-container {
     width: 100%;
@@ -63,12 +64,14 @@ body {
     background: linear-gradient(to left, #e0eafc, #cfdef3);
     border-bottom-right-radius: 15px;
 }
+
 .phonemail {
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
     color: #ff0084;
 }
+
 .social li { /****SOCIAL-MEDIA-ICON**/
     display: inline-block;
     margin: 0px 1.5vw;
@@ -76,20 +79,21 @@ body {
     font-size: 3.5rem;
     font-weight: 800;
 }
+
 .social a {
     color: #ff0084;
 }
 
-.social a:hover {
-    color: white;
-}
+    .social a:hover {
+        color: white;
+    }
 
 .mail {
     height: 5vh;
     width: 20vw;
     text-align: center;
     font-size: 1rem;
-    margin:5px;
+    margin: 5px;
 }
 
 .sub-btn { /*BOTTON-FOR-SUBMIT-&-SUBSCRIBE**/
@@ -106,7 +110,7 @@ body {
     text-transform: uppercase;
     text-align: center;
     width: 20vw;
-    height:5vh;
+    height: 5vh;
 }
 
     .sub-btn:hover {
@@ -130,10 +134,12 @@ body {
     text-align: center;
     font-size: 1rem;
 }
-h2{
-    font-size:2.5rem;
-    color:darkred;
+
+h2 {
+    font-size: 2.5rem;
+    color: darkred;
 }
+
 p {
     font-size: 1.5rem;
     color: #ff0084;

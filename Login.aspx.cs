@@ -73,7 +73,7 @@ namespace DC
                             Response.Redirect("AdminHome.aspx");
                         else if (dr["UserType"].ToString() == "ZONE")
                             Response.Redirect("ZoneHome.aspx");
-                       
+
 
                     }
 

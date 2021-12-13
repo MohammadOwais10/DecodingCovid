@@ -21,8 +21,7 @@ namespace DC
         {
             CONN.Open();
             CMD = new SqlCommand("insert into VaccineDetails(VaccineId, VaccineName,VaccinePrice, VaccineType,VaccinationCharge, VaccineImage)values(" + TextBox1.Text + ", '"
-           + TextBox2.Text + "'," + TextBox3.Text + ",'" + TextBox4.Text + "'," + TextBox5.Text + ",'" + FileUpload1 +
-           "')", CONN);
+           + TextBox2.Text + "'," + TextBox3.Text + ",'" + TextBox4.Text + "'," + TextBox5.Text + ",'" + FileUpload1 + "')", CONN);
             int x = CMD.ExecuteNonQuery();
             if (x > 0)
                 Label2.Text = "Done !";

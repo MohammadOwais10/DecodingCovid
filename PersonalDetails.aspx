@@ -126,7 +126,6 @@
                         SetFocusOnError="True"></asp:RequiredFieldValidator>
                 </div>
 
-
                 <div class="inputfield terms">
                     <label class="check">
                         <input type="checkbox">

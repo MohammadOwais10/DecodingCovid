@@ -20,10 +20,9 @@ namespace DC
         protected void DataList1_SelectedIndexChanged(object sender, EventArgs e)
         {
         }
-            protected void DataList1_ItemCommand(object source, DataListCommandEventArgs e)
+        protected void DataList1_ItemCommand(object source, DataListCommandEventArgs e)
 
         {
-            //DropDownList dlist = (DropDownList)(e.Item.FindControl("DropDownList1"));
             Response.Redirect("PersonalDetails.aspx?id=" + e.CommandArgument.ToString());
         }
     }

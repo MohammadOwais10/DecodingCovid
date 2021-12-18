@@ -3,13 +3,14 @@
 :root {
     --blue: #3c6382;
     --dark-blue: #0a3d62;
-} 
+}
 
 section {
     min-height: 100vh;
     padding: 1rem 9%;
     padding-top: 15rem;
 }
+
 .heading {
     text-align: center;
     color: darkred;
@@ -17,12 +18,13 @@ section {
     font-weight: normal;
     padding: 1rem;
 }
-  .prevent .box-container {
+
+.prevent .box-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-  }
+}
 
     .prevent .box-container .box {
         flex: 1 1 30rem;

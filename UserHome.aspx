@@ -44,12 +44,6 @@ Text="Vaccine Id"  ></asp:Label>
            </b>
  </td>
  </tr>
-<%-- <tr>
- <td style="justify-content:center; display: flex;align-items: center" >
-     
-            <asp:Image ID="Image1" runat="server" ImageUrl='<%# Eval("VaccineImage") %>' Height="300px" Width="300px" BorderColor="Black"  BorderWidth="0px" CornerRadius="10px" />
-            </td>
- </tr>--%>
  <tr>
  <td style="width: 20vw; background-color:white; color: black;Font-Size:2rem;text-align:center">
  <b>Allowed : 
@@ -85,9 +79,6 @@ CommandName="addtocart" CssClass="Roundedcorner" />
                     </tr>
              
  </table>
-<%-- <asp:ImageButton ID="ImageButton1" runat="server" Height="44px"
-ImageUrl="~/images/book.png" Width="214px" CommandArgument='<%# Eval("VaccineId")%>'
-CommandName="addtocart" BorderColor="Black" BorderWidth="2px" />  --%>  
       
 <br />
         </ItemTemplate>

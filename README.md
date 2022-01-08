@@ -1,5 +1,4 @@
 # DecodingCovid
-![MusicLogo1a](https://user-images.githubusercontent.com/91982138/148639332-5c4eb36f-f20c-4232-bfcc-d72e6a118cd1.jpg)
 Decoding Covid is a web based application.It give facility to book vaccine at there doorstep.
 
 The Decoding Covid application will facilitate the citizen with an option toregister and schedule the vaccination session at their according to time &date of their choice and allows to choose vaccine from different genres.

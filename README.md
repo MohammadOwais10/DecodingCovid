@@ -1,5 +1,5 @@
 # DecodingCovid
-Decoding Covid is a web based application.It give facility to book vaccine at there doorstep.
+Decoding Covid is a web based application.It give facility to book vaccine and get vaccinated at home.
 
 The Decoding Covid application will facilitate the citizen with an option toregister and schedule the vaccination session at their according to time &date of their choice and allows to choose vaccine from different genres.
 
